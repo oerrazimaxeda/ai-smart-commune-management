@@ -68,3 +68,6 @@ Core Features:
             Fine payments.
             Waste collection schedules.
             Appointment confirmations.
+
+   ![image](https://github.com/user-attachments/assets/af7aeb13-b24a-4d82-8fa2-2338a5f25034)
+
