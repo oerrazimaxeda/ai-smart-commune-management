@@ -71,3 +71,28 @@ Core Features:
 
    ![image](https://github.com/user-attachments/assets/af7aeb13-b24a-4d82-8fa2-2338a5f25034)
 
+
+Code structure
+
+brussels_commune_system/
+│
+├── backend/
+│   ├── main.py               # FastAPI entry point
+│   ├── database.py           # Database connection setup
+│   ├── models/               # ORM models for database tables
+│   ├── routers/              # API endpoints (e.g., fines, waste, admin tasks)
+│   ├── services/             # Business logic (e.g., AI predictions, chatbot)
+│   ├── utils/                # Utility functions
+│   ├── tests/                # Unit tests
+│
+├── frontend/
+│   ├── app.py                # Streamlit/React entry point
+│   ├── components/           # UI components
+│   ├── static/               # CSS, images, JS
+│   ├── pages/                # Multi-page support (e.g., Fines, Waste, Admin)
+│
+├── data/                     # Datasets (mock data for testing)
+├── .env                      # API keys and secrets
+├── README.md                 # Project documentation
+├── requirements.txt          # Python dependencies
+└── Dockerfile                # For containerization
